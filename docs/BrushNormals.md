@@ -1,6 +1,10 @@
 # Brushed Normals
 
-# Inputs
+Rotates the object normals through the brush strokes map to achieve brush stroke shading across a surface.
+
+ ![img](img/brushNormal_gui.jpg)
+
+## Inputs / Parameters
 
 **Strength** 
 
