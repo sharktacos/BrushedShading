@@ -10,8 +10,14 @@
    
 ## Material Asset Library
 
-[Principled Toon](docs/prinToon.md)
+![img](docs/img/toon.jpg)
+
+[Principled Toon](docs/PrincipledToon.md)
+
+![img](docs/img/nor.jpg)
 
 [Brushed Normals](docs/BrushNormals.md)
+
+![img](docs/img/tri.jpg)
 
 [Triplanar Pref](docs/triPref.md)
