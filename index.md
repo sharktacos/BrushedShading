@@ -21,3 +21,7 @@
 ![img](docs/img/tri.jpg)
 
 [Triplanar Pref](docs/triPref.md)
+
+![img](docs/img/cc.jpg)
+
+[Color Correct](docs/cc.md)
