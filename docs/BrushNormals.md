@@ -1,6 +1,6 @@
 # Brushed Normals
 
-Rotates the object normals through the brush strokes map to achieve brush stroke shading across a surface.
+Transforms smooth shading into brushstroke shading by rotating the object normals through the brush stroke map, mimicking how an artist paints strokes on a canvas to shade an object. 
 
  ![img](img/brushNormal_gui.jpg)
 
