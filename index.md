@@ -4,7 +4,7 @@
 
 
 ## Add-Ons / Tools
-[![img](docs/img/shaderTransfer.jpg)](docs/shaderTransfer.md)
+[![AST](docs/img/shaderTransfer.jpg)](docs/shaderTransfer.html)
 
 [Asset Shader Transfer](docs/shaderTransfer.md)
 
