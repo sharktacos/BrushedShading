@@ -8,7 +8,7 @@
 
 [Create Texture Reference Pose](docs/texRef.md)
    
-## Material Asset Library
+## Material Nodes
 
 [![img](docs/img/toon.jpg)](docs/PrincipledToon.md)
 
