@@ -2,6 +2,10 @@
 
 ## Installation
 
+## FAQ
+
+## Tutorials
+
 
 ## Add-Ons / Tools
 [![AST](docs/img/shaderTransfer.jpg)](docs/shaderTransfer.html)
