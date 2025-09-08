@@ -8,7 +8,7 @@ Maps the Texture Coordinates for triplanar projection mapping (Box mapping) into
 
 **Scale**
 
-Controls the scale of the texture map.
+Ganged slider controlling the scale of the projected texture map equally across each XYZ axis. 
 
 **Pref**
 
