@@ -4,7 +4,11 @@
 
 
 ## Add-Ons / Tools
+[![img](docs/img/shaderTransfer.jpg)](docs/shaderTransfer.md)
+
 [Asset Shader Transfer](docs/shaderTransfer.md)
+
+[![img](docs/img/texRef.jpg)](docs/texRef.md)
 
 [Create Texture Reference Pose](docs/texRef.md)
    
