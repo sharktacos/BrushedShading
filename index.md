@@ -12,6 +12,6 @@
 
 [Principled Toon](docs/prinToon.md)
 
-[Brushed Normals](docs/brushNormals.md)
+[Brushed Normals](docs/BrushNormals.md)
 
 [Triplanar Pref](docs/triPref.md)
