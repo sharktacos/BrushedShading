@@ -54,8 +54,9 @@ Brushed Shading is packaged as a Blender Extension. So all you need to do is loa
 
 Inside the zip file, you will also find many resources, including 
 
-- an example scene for you to try out
-- the brush maps
-- an OSL (Open Shading Language) implementation of the [Brushed Normals](docs/BrushNormals.md)
+- In the *examples* folder, you'll find a blender scene with the awesome FeiFei model by Leo Rezende for you to try out. The scene comes with texture maps and brushed shading materials.
+  ![img](docs/img/exampleScene.jpg)
+- In the *textures* folder, are all the tiled brush maps used in the material library presets
+  ![img](docs/img/brushMaps.jpg)
 
 ## Tutorials
