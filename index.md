@@ -18,7 +18,7 @@ The Asset library includes the components you’ll need to build a Brushed Shadi
 
 ![img](docs/img/matNet.jpg)
 
-See the pages below for documentation for each of these material nodes.
+See the linked pages below for documentation for each of these material nodes.
 
 [![img](docs/img/toon.jpg)](docs/PrincipledToon.html)
 
@@ -52,10 +52,15 @@ The following Add-ons extend Blender’s functionality to make the brushed shadi
 
 Brushed Shading is packaged as a Blender Extension. So all you need to do is load the .zip file into the preferences. 
 
+## Resources
+
 Inside the zip file, you will also find many resources, including 
 
-- an example scene for you to try out
-- the brush maps
-- an OSL (Open Shading Language) implementation of the [Brushed Normals](docs/BrushNormals.md)
+- In the *examples* folder, you'll find a blender scene with the awesome FeiFei model by Leo Rezende for you to try out. The scene comes with texture maps and brushed shading materials.
+  ![img](docs/img/exampleScene.jpg)
+- In the *textures* folder, are all the tiled brush maps used in the material library presets
+  ![img](docs/img/brushMaps.jpg)
 
 ## Tutorials
+
+Coming Soon!
