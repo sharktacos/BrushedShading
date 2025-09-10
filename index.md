@@ -1,5 +1,7 @@
 # Brushed Shading for Blender
 
+![img](docs/img/FeiFei_BrushShade_v2.jpg)
+
 ## Installation
 
 ## FAQ
