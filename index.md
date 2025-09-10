@@ -2,7 +2,9 @@
 
 ![img](docs/img/FeiFei_BrushShade_v2.jpg)
 
-*Brushed Shading for Blender* is a suite of tools for achieving painterly stylized looks in both EEEVEE and Cycles. It does this by transforming regular smooth shading into hand-painted brush stroke shading.
+*Brushed Shading for Blender* is a suite of tools for achieving painterly stylized looks in both EEEVEE and Cycles render. It does this by transforming regular smooth shading into hand-painted brush stroke shading straight out of the render. For a more graphic look, you can add a Kuwahara filter to the Brushed Shading in compositing.
+
+![img](docs/img/Junkyard_BA_v02.gif)
 
 Because it works with hand-painted brush strokes, there are almost endless artistic looks you can achieve with it, including watercolor, oil paint, pastel, palette knife, pencil sketch, and on and on. 
 
