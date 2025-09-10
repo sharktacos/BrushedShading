@@ -18,7 +18,7 @@ The Asset library includes the components you’ll need to build a Brushed Shadi
 
 ![img](docs/img/matNet.jpg)
 
-See the pages below for documentation for each of these material nodes.
+See the linked pages below for documentation for each of these material nodes.
 
 [![img](docs/img/toon.jpg)](docs/PrincipledToon.html)
 
