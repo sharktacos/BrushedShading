@@ -1,6 +1,6 @@
 # Create Texture Reference Pose
 
-When rendering projected textures (such as triplanar or Box mapping) on animated characters, a *texture reference pose* must be created for the mesh. The projected textures are then applied to the reference pose position, and this is passed to the texture coordinates as a [Pref attribute](triPref.md). This prevents the projected texture from appearing to “slide” or “swim” across the object as it moves. 
+When rendering projected textures (such as triplanar aka box mapping) on animated characters, a *texture reference pose* must be created for the mesh. The projected texture is then applied to the reference pose position, and this is passed to the texture coordinates as a [Pref attribute](triPref.md). This prevents the projected texture from appearing to “slide” or “swim” across the object as it moves. 
 
 ![img](img/texRef.jpg)
 
