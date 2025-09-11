@@ -41,3 +41,7 @@ Input for tangent space normal maps
 **Height**
 
 Strength of the normal mapping effect.
+
+## Example material node network
+
+![img](img/network_nor.jpg)
