@@ -1,7 +1,9 @@
 theme: minima
 title: Brushed Shading for Blender
-author: Derek Flood
 show_downloads: false
 header_pages:
 -
 github_username: sharktacos
+author:
+  name: Derek Flood
+  email: studio@sharktacos.com
