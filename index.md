@@ -14,27 +14,21 @@ Because Brushed Shading works with hand-painted brush strokes, there are almost 
 
 ## Material Asset Library - Shader Nodes
 
-The Asset library includes the components you’ll need to build a Brushed Shading material node network. 
+The Asset library includes the components you’ll need to build a Brushed Shading material node network. Each shader node is detailed below in the linked documentation pages.
 
-![img](docs/img/matNet.jpg)
+![img](docs/img/shaderNodes.jpg)
 
-See the linked pages below for documentation for each of these material nodes.
 
-[![img](docs/img/toon.jpg)](docs/PrincipledToon.html)
+# [Principled Toon](docs/PrincipledToon.md)
 
-[Principled Toon](docs/PrincipledToon.md)
+# [Brushed Normals](docs/BrushNormals.md)
 
-[![img](docs/img/nor.jpg)](docs/BrushNormals.html)
+# [Triplanar Pref](docs/triPref.md)
 
-[Brushed Normals](docs/BrushNormals.md)
+# [Color Correct](docs/cc.md)
 
-[![img](docs/img/tri.jpg)](docs/triPref.html)
 
-[Triplanar Pref](docs/triPref.md)
 
-[![img](docs/img/cc.jpg)](docs/cc.html)
-
-[Color Correct](docs/cc.md)
 
 ## Add-Ons / Tools
 
@@ -50,7 +44,7 @@ The following Add-ons extend Blender’s functionality to make the brushed shadi
 
 ## Installation
 
-Brushed Shading is packaged as a Blender Extension. So all you need to do is load the .zip file into the preferences. 
+Brushed Shading is packaged as a Blender Extension. So installing and maintaining is a breeze. See the Blender docs <a href="https://docs.blender.org/manual/en/latest/editors/preferences/extensions.html" target="_blank">Get Extensions</a> page for details.
 
 ## Resources
 
