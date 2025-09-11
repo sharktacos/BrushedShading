@@ -1,7 +1,7 @@
 .
 # Brushed Normals
 
-Transforms smooth shading into brushstroke shading by rotating the object normals through the brush stroke map, mimicking how an artist paints strokes on a canvas to shade an object. 
+Transforms regular smooth shading into brushed shading by rotating the object normals through the brush stroke map, mimicking how an artist paints strokes on a canvas to shade an object. 
 
  ![img](img/brushNormal_gui.jpg)
 
@@ -25,11 +25,11 @@ Rotates the world normals based on a "paint-roller" effect. Effectively smearing
 
 **Rotation** 
 
-Rotates the roller direction clockwise in degrees. The initial direction the "roller" travels is from the top of the screen downwards. A value of 45 will rotate the roll clockwise 45 degrees in screen space, and -45 will rotate counterclockwise 45 degrees.
+Rotates the roll direction clockwise in degrees. At the default value of zero (0) the roll is pointing downwards in screen space so that the roll travels from the top to the bottom. A value of 45 will rotate the roll clockwise 45 degrees in screen space, and -45 will rotate counterclockwise 45 degrees.
 
 **Dir Light Rotations**
 
-Used to link the rotation values of a sun light to drive the roller direction so that the brush shading direction follows the light direction. The light’s rotations in world space are converted into screen space, determining the starting direction angle, and the rotation slider becomes an additional tool to tweak that angle. 
+Used to link the rotation values of a Sun light (i.e. a directional light) to drive the roller direction so that the brush shading direction follows the light direction. The light’s rotations in world space are converted into screen space, determining the starting direction angle, and the rotation slider becomes an additional tool to tweak that angle. 
 
 **Input as radians**
 
@@ -37,7 +37,7 @@ Light rotation values are passed by Blender as radians, rather than degrees. If 
 
 **Normal Map**
 
-Input for tangent space normal maps
+Input for tangent space normal maps.
 
 **Height**
 

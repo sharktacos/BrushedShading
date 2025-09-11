@@ -1,6 +1,7 @@
+.
 # Triplanar Pref
 
-Maps the Texture Coordinates for triplanar projection mapping (Box mapping) into either object coordinates or to a Pref attribute of a [Texture Reference Pose](texRef.md).
+Maps the Texture Coordinates for triplanar projection mapping (referred to as "box" projection mapping in Blender) into either object coordinates or into a Pref attribute of a [Texture Reference Pose](texRef.md).
 
 ![img](img/pref_gui.jpg)
 
