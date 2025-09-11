@@ -7,3 +7,5 @@ github_username: sharktacos
 author:
   name: Derek Flood
   email: "studio@sharktacos.com"
+minima:
+  skin: dark
