@@ -19,13 +19,13 @@ The Asset library includes the components you’ll need to build a Brushed Shadi
 ![img](docs/img/shaderNodes.jpg)
 
 
-### [Principled Toon](docs/PrincipledToon.md)
+> **[Principled Toon](docs/PrincipledToon.md)**
 
-## [Brushed Normals](docs/BrushNormals.md)
+> **[Brushed Normals](docs/BrushNormals.md)**
 
-## [Triplanar Pref](docs/triPref.md)
+### [Triplanar Pref](docs/triPref.md)
 
-## [Color Correct](docs/cc.md)
+### [Color Correct](docs/cc.md)
 
 
 
