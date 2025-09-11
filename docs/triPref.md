@@ -1,3 +1,4 @@
+.
 # Triplanar Pref
 
 Maps the Texture Coordinates for triplanar projection mapping (Box mapping) into either object coordinates or to a Pref attribute of a [Texture Reference Pose](texRef.md).
