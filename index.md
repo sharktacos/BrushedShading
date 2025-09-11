@@ -14,27 +14,21 @@ Because Brushed Shading works with hand-painted brush strokes, there are almost 
 
 ## Material Asset Library - Shader Nodes
 
-The Asset library includes the components you’ll need to build a Brushed Shading material node network. 
+The Asset library includes the components you’ll need to build a Brushed Shading material node network. Each shader node is detailed below in the linked documentation pages.
 
-![img](docs/img/matNet.jpg)
+![img](docs/img/shaderNodes.jpg)
 
-See the linked pages below for documentation for each of these material nodes.
 
-[![img](docs/img/toon.jpg)](docs/PrincipledToon.html)
+## [Principled Toon](docs/PrincipledToon.md)
 
-[Principled Toon](docs/PrincipledToon.md)
+## [Brushed Normals](docs/BrushNormals.md)
 
-[![img](docs/img/nor.jpg)](docs/BrushNormals.html)
+## [Triplanar Pref](docs/triPref.md)
 
-[Brushed Normals](docs/BrushNormals.md)
+## [Color Correct](docs/cc.md)
 
-[![img](docs/img/tri.jpg)](docs/triPref.html)
 
-[Triplanar Pref](docs/triPref.md)
 
-[![img](docs/img/cc.jpg)](docs/cc.html)
-
-[Color Correct](docs/cc.md)
 
 ## Add-Ons / Tools
 
