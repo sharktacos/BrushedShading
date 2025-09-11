@@ -1,4 +1,5 @@
-# Brushed Normals
+
+# Brushed Normals (yo)
 
 Transforms smooth shading into brushstroke shading by rotating the object normals through the brush stroke map, mimicking how an artist paints strokes on a canvas to shade an object. 
 
