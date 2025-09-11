@@ -23,9 +23,9 @@ The Asset library includes the components you’ll need to build a Brushed Shadi
 
 > **[Brushed Normals](docs/BrushNormals.md)**
 
-### [Triplanar Pref](docs/triPref.md)
+> **[Triplanar Pref](docs/triPref.md)**
 
-### [Color Correct](docs/cc.md)
+> **[Color Correct](docs/cc.md)**
 
 
 
