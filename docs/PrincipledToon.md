@@ -75,3 +75,7 @@ With both diffuse and glossy rays at zero (0) the glass will appear darkened. En
 **Transmission IOR**
 
 Index of refraction for transmission.
+
+## Example material node network
+
+![img](img/network_toon.jpg)
