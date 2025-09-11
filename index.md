@@ -44,7 +44,7 @@ The following Add-ons extend Blender’s functionality to make the brushed shadi
 
 ## Installation
 
-Brushed Shading is packaged as a Blender Extension. So all you need to do is load the .zip file into the preferences. 
+Brushed Shading is packaged as a Blender Extension. So everything is just there with a click. See the Blender docs [Get Extensions](https://docs.blender.org/manual/en/latest/editors/preferences/extensions.html) page for details.
 
 ## Resources
 
