@@ -19,13 +19,13 @@ The Asset library includes the components you’ll need to build a Brushed Shadi
 ![img](docs/img/shaderNodes.jpg)
 
 
-> **[Principled Toon](docs/PrincipledToon.md)**
+> [Principled Toon](docs/PrincipledToon.md)
 
-> **[Brushed Normals](docs/BrushNormals.md)**
+> [Brushed Normals](docs/BrushNormals.md)
 
-> **[Triplanar Pref](docs/triPref.md)**
+> [Triplanar Pref](docs/triPref.md)
 
-> **[Color Correct](docs/cc.md)**
+> [Color Correct](docs/cc.md)
 
 
 
@@ -36,11 +36,11 @@ The following Add-ons extend Blender’s functionality to make the brushed shadi
 
 [![AST](docs/img/shaderTransfer.jpg)](docs/shaderTransfer.html)
 
-> **[Asset Shader Transfer](docs/shaderTransfer.md)**
+> [Asset Shader Transfer](docs/shaderTransfer.md)
 
 [![img](docs/img/texRef.jpg)](docs/texRef.html)
 
-> **[Texture Reference Pose](docs/texRef.md)**
+> [Texture Reference Pose](docs/texRef.md)
 
 ## Installation
 

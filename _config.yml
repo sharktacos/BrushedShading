@@ -4,3 +4,6 @@ show_downloads: false
 header_pages:
 -
 github_username: sharktacos
+author: (c) Derek Flood
+minima:
+  skin: dark
