@@ -1,4 +1,6 @@
-theme: jekyll-theme-architect
+theme: minima
 title: Brushed Shading for Blender
 show_downloads: false
-description: Brushed Shading for Blender Docs
+header_pages:
+-
+github_username: sharktacos
