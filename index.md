@@ -1,4 +1,4 @@
-# Brushed Shading for Blender
+# Documentation
 
 ![img](docs/img/FeiFei_BrushShade_v2.jpg)
 
@@ -36,11 +36,11 @@ The following Add-ons extend Blender’s functionality to make the brushed shadi
 
 [![AST](docs/img/shaderTransfer.jpg)](docs/shaderTransfer.html)
 
-[Asset Shader Transfer](docs/shaderTransfer.md)
+> **[Asset Shader Transfer](docs/shaderTransfer.md)**
 
 [![img](docs/img/texRef.jpg)](docs/texRef.html)
 
-[Create Texture Reference Pose](docs/texRef.md)
+> **[Texture Reference Pose](docs/texRef.md)**
 
 ## Installation
 
