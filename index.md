@@ -1,5 +1,4 @@
 
-# Documentation
 
 ![img](docs/img/FeiFei_BrushShade_v2.jpg)
 
