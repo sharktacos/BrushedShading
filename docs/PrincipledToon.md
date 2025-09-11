@@ -1,5 +1,5 @@
 .
-## Principled Toon (Cycles) yo
+# Principled Toon (Cycles)
 
 Combines the Toon BSDF for both glossy and diffuse into the familiar structure of Blender’s Principled BRDF, or more properly, into the structure of OpenPBR. Includes controls for stylized metal and glass. 
 
