@@ -1,9 +1,11 @@
 .
 # Color Correct
 
-Utility node for color correcting material nodes.
+Utility node for color correcting in the Shader Editor.
 
 ![img](img/cc_gui.jpg)
+
+# Inputs / Parameters
 
 **Color**
 
@@ -19,7 +21,7 @@ Adds this value to the color.
 
 **Gain**
 
-Float
+A gain is a multiplier like the tint, but with a single float value. 
 
 **Gamma**
 
@@ -40,4 +42,4 @@ Clamps output values outside of the 0 to 1 range.
 
 **Mask**
 
-Blends between the Input color and the color-corrected one.
+Blends between the input color and the color-corrected one.
