@@ -32,13 +32,11 @@ The Asset Library includes the components you’ll need to build a Brushed Shadi
 
 ## Add-Ons / Tools
 
-The following Add-Ons extend Blender’s functionality to make the brushed shading workflow possible in an animation production.
+The following Add-Ons extend Blender’s functionality to make the brushed shading workflow possible in an animation production pipeline.
 
-[![AST](docs/img/shaderTransfer.jpg)](docs/shaderTransfer.html)
+![img](docs/img/addons.jpg)
 
 > [Asset Shader Transfer](docs/shaderTransfer.md)
-
-[![img](docs/img/texRef.jpg)](docs/texRef.html)
 
 > [Texture Reference Pose](docs/texRef.md)
 
