@@ -42,11 +42,11 @@ The following Add-Ons extend Blender’s functionality to make the brushed shadi
 
 ## Installation
 
-Brushed Shading is packaged as a Blender Extension. So installing and maintaining is a breeze. You just need to load the ZIPPED file in the Preferences, and everything will be set up. See the <a href="https://docs.blender.org/manual/en/latest/editors/preferences/extensions.html" target="_blank">Get Extensions</a> page of the Blender docs for details.
+Brushed Shading is packaged as a Blender Extension. So installing and maintaining is a breeze. As explained in the <a href="https://docs.blender.org/manual/en/latest/editors/preferences/extensions.html" target="_blank">Get Extensions</a> page of the Blender, to install from disk, use the drop-down menu in the top right of the Preferences, or drag-and-drop the extension .zip package into Blender. This will install the add-ons as well as the Material Asset Library. 
 
 ## Resources
 
-Inside the zip file, you will also find many resources, including 
+Inside the extension .zip package, you will also find many resources, including 
 
 - In the *examples* folder, you'll find a blender scene with the awesome FeiFei model by Leo Rezende for you to try out. The scene comes with texture maps and brushed shading materials.
   ![img](docs/img/exampleScene.jpg)
