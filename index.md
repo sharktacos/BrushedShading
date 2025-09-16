@@ -42,7 +42,7 @@ The following Add-Ons extend Blender’s functionality to make the brushed shadi
 
 ## Installation
 
-Brushed Shading is packaged as a Blender Extension. So installing and maintaining is a breeze. See the Blender docs <a href="https://docs.blender.org/manual/en/latest/editors/preferences/extensions.html" target="_blank">Get Extensions</a> page for details.
+Brushed Shading is packaged as a Blender Extension. So installing and maintaining is a breeze. You just need to load the ZIPPED file in the Preferences, and everything will be set up. See <a href="https://docs.blender.org/manual/en/latest/editors/preferences/extensions.html" target="_blank">Get Extensions</a> page of the Blender docs for details.
 
 ## Resources
 
@@ -52,6 +52,7 @@ Inside the zip file, you will also find many resources, including
   ![img](docs/img/exampleScene.jpg)
 - In the *textures* folder, you'll find all the tiled brush maps used in the material library presets.
   ![img](docs/img/brushMaps.jpg)
+- In the *shaders* folder, you'll find two OSL shaders. One for Blender, and another for Maya.
 
 ## Tutorials
 
