@@ -1,7 +1,7 @@
 .
 # Principled Toon (Cycles)
 
-Combines the Toon BSDF for both glossy and diffuse into the familiar structure of Blender’s Principled BRDF, or more properly, into the structure of OpenPBR. Includes controls for stylized metal and glass. 
+Combines the Toon BSDF for both glossy and diffuse into the familiar structure of Blender’s Principled BSDF, or more properly, into the structure of an OpenPBR material. Includes controls for stylized metal and glass. 
 
 Note that because Blender's Toon BSDF only works with Cycles, the same is true for the Principled Toon. If you wish to render in EEVEE you can connect the other shader node components into any material.
 

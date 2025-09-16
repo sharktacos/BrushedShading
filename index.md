@@ -32,28 +32,27 @@ The Asset Library includes the components you’ll need to build a Brushed Shadi
 
 ## Add-Ons / Tools
 
-The following Add-Ons extend Blender’s functionality to make the brushed shading workflow possible in an animation production.
+The following Add-Ons extend Blender’s functionality to make the brushed shading workflow possible in an animation production pipeline.
 
-[![AST](docs/img/shaderTransfer.jpg)](docs/shaderTransfer.html)
+![img](docs/img/addons.jpg)
 
 > [Asset Shader Transfer](docs/shaderTransfer.md)
-
-[![img](docs/img/texRef.jpg)](docs/texRef.html)
 
 > [Texture Reference Pose](docs/texRef.md)
 
 ## Installation
 
-Brushed Shading is packaged as a Blender Extension. So installing and maintaining is a breeze. See the Blender docs <a href="https://docs.blender.org/manual/en/latest/editors/preferences/extensions.html" target="_blank">Get Extensions</a> page for details.
+Brushed Shading is packaged as a Blender Extension. So installing and maintaining is a breeze. As explained in the <a href="https://docs.blender.org/manual/en/latest/editors/preferences/extensions.html" target="_blank">Get Extensions</a> page of the Blender docs, to install from disk you can either use the drop-down menu in the top right of the Preferences, or drag-and-drop the extension .zip package into Blender. This will install the add-ons as well as the Material Asset Library. 
 
 ## Resources
 
-Inside the zip file, you will also find many resources, including 
+Inside the extension .zip package, you will also find many resources, including 
 
 - In the *examples* folder, you'll find a blender scene with the awesome FeiFei model by Leo Rezende for you to try out. The scene comes with texture maps and brushed shading materials.
   ![img](docs/img/exampleScene.jpg)
 - In the *textures* folder, you'll find all the tiled brush maps used in the material library presets.
   ![img](docs/img/brushMaps.jpg)
+- In the *shaders* folder, you'll find two OSL shaders. One for Blender, and another for Maya.
 
 ## Tutorials
 
