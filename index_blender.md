@@ -1,6 +1,9 @@
 
 .
-# Brushed Shading for Blender
+# Brushed Shading for Blender Documentation
+[Download Brushed Shading for Blender](https://sharktacos.gumroad.com/l/BrushedShading)
+[Watch video totorials](https://youtu.be/OPMcgrchrA8?si=RRSnj7qmrY_om6Aw)
+
 ![img](docs/img/FeiFei_BrushShade_v2.jpg)
 
 *Brushed Shading for Blender* is a suite of tools for achieving painterly stylized looks in both EEEVEE and Cycles. It does this by transforming regular smooth shading into hand-painted brush stroke shading. 
