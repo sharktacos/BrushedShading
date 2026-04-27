@@ -2,11 +2,15 @@
 ## [Brushed Shading for Maya/MaterialX](../index_maya.md)
 # Brushed Normals
 
-Transforms regular smooth shading into brushed shading by rotating the object normals through the brush stroke map, mimicking how an artist paints strokes on a canvas to shade an object. 
+Transforms regular smooth shading into brushed shading by rotating the object normals through the brush stroke map, emulating how an artist shades transitions from light to dark by dragging their brush through paint.
 
- ![img](img/Maya/BrushNormAttr.jpg)
+![img](img/Maya/SphereLogoSm.[0030-0080].gif)
+
+
 
 ## Inputs / Parameters
+
+ ![img](img/Maya/BrushNormAttr.jpg)
 
 **Strength** 
 
