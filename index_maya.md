@@ -1,4 +1,5 @@
-
+.
+# Brushed Shading for Maya
 
 ![img](docs/img/Maya/FeiFei_shot_main.0200.jpg)
 
