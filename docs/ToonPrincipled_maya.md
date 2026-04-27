@@ -3,7 +3,7 @@
 
 Based on OpenPBR, but designed for NPR rendering.  
 
-![gui](img/Maya/toonPrincipledAttr2.jpg)
+![img](img/Maya/toonPrincipledAttr2.jpg)
 
 ## Inputs / Parameters
 
