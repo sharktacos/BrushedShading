@@ -6,6 +6,8 @@ Because Brushed Shading works with hand-painted brush strokes, there are almost 
 
 ![img](img/Maya/BrushedShading_looks2.jpg)
 
+## Look Assets folder
+
 You will find the looks in the *assets* folder. Each look consists of a MaterialX file, a corresponding Maya file showing the look, and a image showing that scene rendered. In  brush texture, and Maya file. The *brush_tex* folder you will find all of the brush maps used in the looks. These are in 16-bit EXR format with DWAB compression in linear (AGEScg) color space.
 
 ![img](img/Maya/assetsFolder.jpg)
