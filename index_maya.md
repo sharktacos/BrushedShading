@@ -11,6 +11,15 @@ Brushed Shading turns regular smooth shading into the look of hand-painted brush
 
 ![img](docs/img/Maya/SphereLogoSm.[0030-0080].gif)
 
+## [Installation](install_Maya.md)
+
+See above linked documentation page for instructions.
+
+## [Download Brushed Shading for Maya](https://sharktacos.gumroad.com/l/BrushedShading)
+
+Get your copy of Brushed Shading for Maya at the above link
+
+
 ## MaterialX Node Library
 
 The custom MaterialX Node Library includes all the components you’ll need to build your own Brushed Shading material node networks. Each shader node is detailed below in the linked documentation pages.
@@ -50,6 +59,8 @@ Brushed Shading for Maya requires Maya 2026.3 and up, and was designed for rende
 Both the Toon Principled and Toon Glass shaders use Arnold MaterialX nodes, and so will only render with Arnold. The other shader nodes (Triplanar Pref, Brushed Normals) are made using standard MaterialX nodes, and so should be render agnostic.
 
 ## Installation
+
+
 
 ![img](install.jpg)
 To install, place the *install/modules* folder containing the BrushedShading.mod file and BrushedShading_pkg folder into your Maya folder. 
