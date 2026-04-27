@@ -1,11 +1,9 @@
 .
-# Principled Toon (Cycles)
+# Toon Principled (Arnold)
 
-Combines the Toon BSDF for both glossy and diffuse into the familiar structure of Blender’s Principled BSDF, or more properly, into the structure of an OpenPBR material. Includes controls for stylized metal and glass. 
+Based on OpenPBR, but designed for NPR rendering.  
 
-Note that because Blender's Toon BSDF only works with Cycles, the same is true for the Principled Toon. If you wish to render in EEVEE you can connect the other shader node components into any material.
-
-![gui](img/principledToon_gui.jpg)
+![gui](img/Maya/toonPrincipledAttr2.jpg)
 
 ## Inputs / Parameters
 
@@ -15,15 +13,19 @@ Scalar multiplier for Base Color
 
 **Base Color**
 
-Overall color of the material used for diffuse, metal and transmission.
+Overall color of the material used for diffuse and metal.
 
 **Base Flatten**
 
-Controls how smooth or sharp the diffuse shading is. Works by coupling the size and smooth controls of a toon BSDF together into a single slider, where the smooth is the inverse of the size. Intended to emulate the flattening parameter in the Moonray toon shader. 
+Controls how flat the diffuse shading is by blending between smooth shading normals (using EON diffuse roughness), and brushed normals.
 
 **Metalness**
 
-A mix between dielectric shading and toon metallic. Uses two lobes of Glossy Toon BSDF for the reflections to get a stylized metallic look. When enabled, Specular Size controls the specular dot (which takes its color from the Specular Color), whereas the Specular Roughness controls the overall material roughness of the metal’s tinted reflections. 
+A mix between dielectric shading and toon metallic. Uses two specular lobes, one tinted with the base color, to get a stylized metallic look. 
+
+**Metal Roughness**
+
+Roughness of the metal specular lobe.
 
 **Toon Spec** 
 
