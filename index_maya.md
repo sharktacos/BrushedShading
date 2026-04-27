@@ -1,5 +1,8 @@
 .
-# Brushed Shading for Maya
+# Brushed Shading for Maya Documentation
+[Download Brushed Shading for Maya](https://sharktacos.gumroad.com/l/BrushedShading_Maya)
+
+[Watch Brushed Shading for Maya video tutorials](https://youtu.be/OPMcgrchrA8?si=RRSnj7qmrY_om6Aw)
 
 ![img](docs/img/Maya/FeiFei_shot_main.0200.jpg)
 
