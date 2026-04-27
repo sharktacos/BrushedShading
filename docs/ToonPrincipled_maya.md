@@ -3,8 +3,7 @@
 
 Based on OpenPBR, but designed for NPR rendering.  
 
-![img](img/Maya/triplanarPrefAttr.jpg)
-![img](img/Maya/toonPrincipledAttr.jpg)
+![img](img/Maya/toonPrincipledAttr2.jpg)
 
 ## Inputs / Parameters
 
@@ -16,11 +15,13 @@ Scalar multiplier for Base Color
 
 Overall color of the material used for diffuse and metal.
 
-**Base Flatten**
+**Flatten Brushing**
 
-Controls how flat the diffuse shading is by blending between smooth shading normals (using EON diffuse roughness), and brushed normals.
+Blending between smooth shading normals and brushed normals. A value of 0 is complete brushed normals across the diffuse surface, increased values will move the transition from smooth shading to brushed shading along the light direction, with a value of 1 creating smooth shading right up to the light terminator where it will switch into brushed shading.
 
-**Metalness**
+Node that the diffuse shading is in energy preserving Oren-Nayer (EON) to produce a flattened toon look.
+
+**Metal Weight*
 
 A mix between dielectric shading and toon metallic. Uses two specular lobes, one tinted with the base color, to get a stylized metallic look. 
 
@@ -32,9 +33,6 @@ Roughness of the metal specular lobe.
 
 Toggle between toon specular (Toon Glossy BSDF), and microfacet GGX specular. 
 
-**Specular Size**
-
-Gives an angle of reflection between 0° and 45°.
 
 **Specular Weight**
 
@@ -44,44 +42,51 @@ Scalar multiplier for Specular Color.
 
 Color tint for specular highlight.
 
+**Specular Size**
+
+Tonemaps the specular highlight to create a sharp circular specular highlight
+
 **Specular Roughness**
 
-Specifies the roughness of the surface for specular reflection. When Toon Spec is enabled, this controls the toon glossy smoothness. That is, it specifies an angle over which a smooth transition from full to no reflection happens.
+Specifies the roughness of the surface for specular reflection. Generally you want to keep this high (dafault 0.6), using Specular Size.
 
-**IOR**
+**Edge**
 
-Index of refraction for the GGX spec. Defaults to a physically implausible value of 2.0, since we are doing non-physically based rendering (NPR), producing a broader specular highlight. 
+The edge uses tonemapped facing ratio, to create a stylized edging that can be used for metals, cloth. 
 
-**Normal**
+**Edge Weight**
 
-Controls the normals of the base layers.
+Scalar multiplier for Edge Color.
 
-**Spec Normal Strength** 
+**Edge Color**
 
-Controls the amount that the specular is affected by the normal. 
+The color of the stylized edge. Note that black can be used for darkening as well as lightening.
 
-**Emission Weight**
+**Edge Thickness**
 
-Scalar multiplier for Emission Color.
+Controlls the thickness of the edge.
+
+**Emission Luminace**
+
+Controls the amount of emitted light, specified as a luminance in nits (candela per square meter). 
 
 **Emission Color**
 
-Light emission from the surface.
+The emission color is multiplied by the white light of the given emission luminance to obtain the final RGB emission.
 
-**Alpha** 
+**Emission Tint**
 
-Controls the opacity of the surface. Usually linked to the Alpha output of an Image Texture node.
+Multiplier for tinting the emission color. Useful for stylized (flat) skin looks by tinting with red for the sub-dermal layer.
 
-**Transmission Weight**
+**Base Normal** 
 
-Enables stylized glass, which is a mix between refraction at glancing angles and transparency. This allows for stylized glass where indirect reflections and global illumination are disabled for NPR lighting. That is, where the max light bounce is set to zero for diffuse and glossy. 
+Input for brushed Normals affecting the base.
 
-With both diffuse and glossy rays at zero (0) the glass will appear darkened. Enabling diffuse rays removes the darkening. Enabling glossy rays produces lighter glass.
+**Specular Normal** 
 
-**Transmission IOR**
+Input for brushed Normals affecting the specular.
 
-Index of refraction for transmission.
+**Edge Normal** 
 
-## Example material node network
+Input for brushed Normals affecting the edge.
 
-![img](img/network_toon.jpg)
