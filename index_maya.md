@@ -51,16 +51,17 @@ Both the Toon Principled and Toon Glass shaders use Arnold MaterialX nodes, and 
 
 ## Installation
 
+![img](install.jpg)
 To install, place the *install/modules* folder containing the BrushedShading.mod file and BrushedShading_pkg folder into your Maya folder. 
 If you already have a modules folder there, you can add the content into that.
 
 (Windows®)
 
-    *drive:\Users\username\Documents\maya\modules\*
+    drive:\Users\username\Documents\maya\modules\
 
 (Mac OS X)
 
-    */Users/username/Library/Preferences/Autodesk/maya/modules/*
+    /Users/username/Library/Preferences/Autodesk/maya/modules/
 
 
 Note: To open the Preferences directory on MacOS:
