@@ -4,6 +4,10 @@
 
 *Brushed Shading for Blender* is a suite of tools for achieving painterly stylized looks in both EEEVEE and Cycles. It does this by transforming regular smooth shading into hand-painted brush stroke shading. 
 
+# [Brushed Shading for Blender](index_blender.md)
+
+# [Brushed Shading for Maya](index_maya.md)
+
 ![img](docs/img/Junkyard_close_BA.jpg)
 
 ## Material Asset Library
