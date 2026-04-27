@@ -1,37 +1,49 @@
 ## Maya/MaterialX
 # Toon Glass (Arnold)
 
-Combines the Toon BSDF for both glossy and diffuse into the familiar structure of Blender’s Principled BSDF, or more properly, into the structure of an OpenPBR material. Includes controls for stylized metal and glass. 
-
-Note that because Blender's Toon BSDF only works with Cycles, the same is true for the Principled Toon. If you wish to render in EEVEE you can connect the other shader node components into any material.
+Stylized glass surface. Includes center clarity, edge thickness, and specular tone mapping.
 
 ![img](img/Maya/toonGlassAttr.jpg)
 
 ## Inputs / Parameters
 
-**Base Weight**
+**Glass Tint**
 
-Scalar multiplier for Base Color
+Tints the color of the glass.
 
-**Base Color**
+**Edge Color**
 
-Overall color of the material used for diffuse, metal and transmission.
+The color of the edge, representing the thicker part of the glass viewed from glancing angles.
 
-**Base Flatten**
+**Center Clarity**
 
-Controls how smooth or sharp the diffuse shading is. Works by coupling the size and smooth controls of a toon BSDF together into a single slider, where the smooth is the inverse of the size. Intended to emulate the flattening parameter in the Moonray toon shader. 
+Amount eminating from the center outwards to have no effect to the brush shading on the refraction.
 
-**Metalness**
+**Edge Transparency**
 
-A mix between dielectric shading and toon metallic. Uses two lobes of Glossy Toon BSDF for the reflections to get a stylized metallic look. When enabled, Specular Size controls the specular dot (which takes its color from the Specular Color), whereas the Specular Roughness controls the overall material roughness of the metal’s tinted reflections. 
+Amount of transparency for the edge. A value of 0 will make the edges complete;y opaque.
+
+**Edge Thickness**
+
+Thickness of the stylized edge.
+
+**IOR**
+
+The Specular IOR defines the index of refraction (IOR) of the base dielectric. Higher IORs produce a stronger specular reflection.
+
+**Thin Walled**
+
+In the thin-walled mode, the surface is considered to be a (microscopically) thin two-dimensional sheet of material, rather than the boundary of a solid object. This is intended for the convenient and efficient rendering of thin materials (such as window panes, soap bubbles, sheets of paper, and leaves) as open meshes rather than closed thick shells.
+
+**Transmit AOVs**
+
+When enabled, Transmission will pass through AOVs. If the background is transparent, then the transmissive surface will become transparent so that it can be composited over another background. Light path expression AOVs will be passed through so that, for example, a diffuse surface seen through a transmissive surface will end up in the Diffuse AOV. Other AOVs can also be passed straight through (without any opacity blending), which can be used for creating masks, for example.
+
+## Specular
 
 **Toon Spec** 
 
 Toggle between toon specular (Toon Glossy BSDF), and microfacet GGX specular. 
-
-**Specular Size**
-
-Gives an angle of reflection between 0° and 45°.
 
 **Specular Weight**
 
@@ -41,44 +53,18 @@ Scalar multiplier for Specular Color.
 
 Color tint for specular highlight.
 
+**Specular Size**
+
+Tonemaps the specular highlight to create a sharp circular specular highlight
+
 **Specular Roughness**
 
-Specifies the roughness of the surface for specular reflection. When Toon Spec is enabled, this controls the toon glossy smoothness. That is, it specifies an angle over which a smooth transition from full to no reflection happens.
+Specifies the roughness of the surface for specular reflection. Generally you want to keep this high (dafault 0.6), using Specular Size.
 
-**IOR**
+## Brushing
 
-Index of refraction for the GGX spec. Defaults to a physically implausible value of 2.0, since we are doing non-physically based rendering (NPR), producing a broader specular highlight. 
+**Glass Normal** 
 
-**Normal**
+Input for brushed Normals affecting the glass.
 
-Controls the normals of the base layers.
-
-**Spec Normal Strength** 
-
-Controls the amount that the specular is affected by the normal. 
-
-**Emission Weight**
-
-Scalar multiplier for Emission Color.
-
-**Emission Color**
-
-Light emission from the surface.
-
-**Alpha** 
-
-Controls the opacity of the surface. Usually linked to the Alpha output of an Image Texture node.
-
-**Transmission Weight**
-
-Enables stylized glass, which is a mix between refraction at glancing angles and transparency. This allows for stylized glass where indirect reflections and global illumination are disabled for NPR lighting. That is, where the max light bounce is set to zero for diffuse and glossy. 
-
-With both diffuse and glossy rays at zero (0) the glass will appear darkened. Enabling diffuse rays removes the darkening. Enabling glossy rays produces lighter glass.
-
-**Transmission IOR**
-
-Index of refraction for transmission.
-
-## Example material node network
-
-![img](img/network_toon.jpg)
+**Specular Normal** 
