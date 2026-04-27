@@ -1,3 +1,4 @@
+.
 ## Maya/MaterialX
 # Triplanar Pref
 
