@@ -11,12 +11,6 @@ Brushed Shading turns regular smooth shading into the look of hand-painted brush
 
 ![img](docs/img/Maya/SphereLogoSm.[0030-0080].gif)
 
-## Example Looks
-
-Because Brushed Shading works with hand-painted brush strokes, there are almost endless artistic looks you can achieve. Brush Shading for Maya comes with several examples of the different looks you can achieve, including watercolor, oil paint, pastel, palette knife, and pencil hatch. You can also make your own custom brushes to get your own personal style. Each look consists of a MaterialX file, brush texture, and Maya file.
-
-![img](docs/img/Maya/BrushedShading_looks2.jpg)
-
 ## MaterialX Node Library
 
 The custom MaterialX Node Library includes all the components you’ll need to build your own Brushed Shading material node networks. Each shader node is detailed below in the linked documentation pages.
@@ -45,6 +39,12 @@ The following menu items are included to make the brushed shading workflow possi
 > **Create Specular RGB network in selected Doc** <br> Creates a Specular RGB network in the selected MaterialX document.
 
 > **Create Triplanar Network in selected Doc** <br> Creates an aiTriplanar network in the selected MaterialX document.
+
+## Example Looks
+
+Because Brushed Shading works with hand-painted brush strokes, there are almost endless artistic looks you can achieve. Brush Shading for Maya comes with several examples of the different looks you can achieve, including watercolor, oil paint, pastel, palette knife, and pencil hatch. You can also make your own custom brushes to get your own personal style. Each look consists of a MaterialX file, brush texture, and Maya file.
+
+![img](docs/img/Maya/BrushedShading_looks2.jpg)
 
 ## Example Project
 
