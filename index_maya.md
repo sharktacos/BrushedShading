@@ -46,7 +46,7 @@ See above linked documentation for the catalog of example looks.
 
 ## Example Project
 
-To help get you started, an example Maya project is included featuring the wonderful [FeiFei model by Leo Rezende](https://leorezende.gumroad.com/l/FeiFei?layout=profile&recommended_by=library). This is a production ready shot lighting scene, including camera, lights, animation cache, hand painted texture maps, and of course, Brushed Shading material node networks for the character's eyes, hair, skin, and clothing. See the video tutorials link above for a scene walk-through.
+To help get you started, an example Maya project is included featuring the wonderful [FeiFei model by Leo Rezende](https://leorezende.gumroad.com/l/FeiFei?layout=profile&recommended_by=library{target="_blank"}). This is a production ready shot lighting scene, including camera, lights, animation cache, hand painted texture maps, and of course, Brushed Shading material node networks for the character's eyes, hair, skin, and clothing. See the video tutorials link above for a scene walk-through.
 
 ![img](docs/img/Maya/MayaProj.jpg)
 
