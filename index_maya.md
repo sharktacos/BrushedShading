@@ -16,7 +16,7 @@ Brushed Shading turns regular smooth shading into the look of hand-painted brush
 
 ## [Installation](install_Maya.md)
 
-See above linked documentation page for instructions.
+See above linked documentation page for installation instructions.
 
 ## MaterialX Node Library
 
@@ -40,9 +40,11 @@ The custom MaterialX Node Library includes all the components you’ll need to b
 Menu of useful utility functions. See above linked documentation.
 
 
-## Example Looks
+## [Example Looks](docs/looks_Maya.md)
 
-Because Brushed Shading works with hand-painted brush strokes, there are almost endless artistic looks you can achieve. Brush Shading for Maya comes with several examples of the different looks you can achieve, including watercolor, oil paint, pastel, palette knife, and pencil hatch. You can also make your own custom brushes to get your own personal style. Each look consists of a MaterialX file, brush texture, and Maya file.
+[Triplanar Pref](docs/triPref_maya.md)
+
+See above linked documentation.
 
 ![img](docs/img/Maya/BrushedShading_looks2.jpg)
 
