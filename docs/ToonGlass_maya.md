@@ -69,3 +69,5 @@ Specifies the roughness of the surface for specular reflection. Generally you wa
 Input for brushed Normals affecting the glass.
 
 **Specular Normal** 
+
+Input for brushed Normals affecting the specular.

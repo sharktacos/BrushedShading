@@ -1,4 +1,5 @@
-
+.
+# Brushed Shading for Maya
 
 ![img](docs/img/Maya/FeiFei_shot_main.0200.jpg)
 
@@ -10,13 +11,7 @@ Brushed Shading turns regular smooth shading into the look of hand-painted brush
 
 ![img](docs/img/Maya/SphereLogoSm.[0030-0080].gif)
 
-## Example Looks
-
-Because Brushed Shading works with hand-painted brush strokes, there are almost endless artistic looks you can achieve. Brush Shading for Maya comes with several examples of the different looks you can achieve, including watercolor, oil paint, pastel, palette knife, and pencil hatch. You can also make your own custom brushes to get your own personal style. Each look consists of a MaterialX file, brush texture, and Maya file.
-
-![img](docs/img/Maya/BrushedShading_looks2.jpg)
-
-MaterialX Node Library
+## MaterialX Node Library
 
 The custom MaterialX Node Library includes all the components you’ll need to build your own Brushed Shading material node networks. Each shader node is detailed below in the linked documentation pages.
 
@@ -37,28 +32,27 @@ The custom MaterialX Node Library includes all the components you’ll need to b
 
 The following menu items are included to make the brushed shading workflow possible in an animation production pipeline.
 
-![img](docs/img/addons.jpg)
+> **Create Texture Reference Objects** <br> Creates texture reference objects for the selected meshes, and exports their reference normals (Nref). 
 
-> [Asset Shader Transfer](docs/shaderTransfer.md)
+> **Create Lambert RGB in selected Doc** <br> Creates a Lambert RGB (aiUtility) in the selected MaterialX document. 
 
-> [Texture Reference Pose](docs/texRef.md)
+> **Create Specular RGB network in selected Doc** <br> Creates a Specular RGB network in the selected MaterialX document.
 
-## Installation
+> **Create Triplanar Network in selected Doc** <br> Creates an aiTriplanar network in the selected MaterialX document.
 
+## Example Looks
 
+Because Brushed Shading works with hand-painted brush strokes, there are almost endless artistic looks you can achieve. Brush Shading for Maya comes with several examples of the different looks you can achieve, including watercolor, oil paint, pastel, palette knife, and pencil hatch. You can also make your own custom brushes to get your own personal style. Each look consists of a MaterialX file, brush texture, and Maya file.
 
-Brushed Shading is packaged as a Blender Extension. So installing and maintaining is a breeze. As explained in the <a href="https://docs.blender.org/manual/en/latest/editors/preferences/extensions.html" target="_blank">Get Extensions</a> page of the Blender docs, to install from disk you can either use the drop-down menu in the top right of the Preferences, or drag-and-drop the extension .zip package into Blender. This will install the add-ons as well as the Material Asset Library. 
+![img](docs/img/Maya/BrushedShading_looks2.jpg)
 
-## Resources
+## Example Project
 
-Inside the extension .zip package, you will also find many resources, including 
+To help get you started, an example Maya project is included featuring the wonderful FeiFei model by Leo Rezende. This is a production ready shot lighting scene including camera, lights, animation cache, hand painted texture maps, and of course Brushed Shading material node networks.
 
-- In the *examples* folder, you'll find a blender scene with the awesome FeiFei model by Leo Rezende for you to try out. The scene comes with texture maps and brushed shading materials.
-  ![img](docs/img/exampleScene.jpg)
-- In the *textures* folder, you'll find all the tiled brush maps used in the material library presets.
-  ![img](docs/img/brushMaps.jpg)
-- In the *shaders* folder, you'll find two OSL shaders. One for Blender, and another for Maya.
+## Requirements
 
-## Tutorials
+Brushed Shading for Maya requires Maya 2026.3 and up, and was designed for rendering in Arnold.
 
-Coming Soon!
+Both the Toon Principled and Toon Glass shaders use Arnold MaterialX nodes, and so will only render with Arnold. The other shader nodes (Triplanar Pref, Brushed Normals) are made using standard MaterialX nodes, and so should be render agnostic.
+
