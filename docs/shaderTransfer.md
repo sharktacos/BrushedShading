@@ -1,5 +1,5 @@
 .
-## Blender
+## [Brushed Shading for Blender](../index_blender.md)
 # Asset Shader Transfer
 
 ![img](img/shaderTransfer.jpg)

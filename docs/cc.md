@@ -1,5 +1,5 @@
 .
-## Blender
+## [Brushed Shading for Blender](../index_blender.md)
 # Color Correct
 
 Utility node for color correcting in the Shader Editor.

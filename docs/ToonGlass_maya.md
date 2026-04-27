@@ -1,5 +1,5 @@
 .
-## Maya/MaterialX
+## [Brushed Shading for Maya/MaterialX](../index_maya.md)
 # Toon Glass (Arnold)
 
 Stylized glass surface. Includes center clarity, edge thickness, and specular tone mapping.
