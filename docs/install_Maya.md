@@ -1,6 +1,5 @@
 .
-# Brushed Shading for Maya
-
+## [Brushed Shading for Maya/MaterialX](../index_maya.md)
 ## Requirements
 
 BrushedShading for Maya v1.0 requires Maya 2026.3 or later.
