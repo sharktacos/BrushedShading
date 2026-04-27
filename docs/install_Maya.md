@@ -7,7 +7,7 @@ BrushedShading for Maya v1.0 requires Maya 2026.3 or later.
 
 ## Installation
 
-![img](img/Maya/install.jpg)
+<img src="img/Maya/install.jpg" width="50%" alt="Installation guide">
 
 To install, place the *install/modules* folder containing the BrushedShading.mod file and BrushedShading_pkg folder into your Maya folder. 
 If you already have a modules folder there, you can add the content into that.
