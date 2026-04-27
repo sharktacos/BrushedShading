@@ -1,63 +1,10 @@
 
 
-![img](docs/img/FeiFei_BrushShade_v2.jpg)
+![img](docs/img/Junkyard_BA3_v02.gif)
 
-*Brushed Shading for Blender* is a suite of tools for achieving painterly stylized looks in both EEEVEE and Cycles. It does this by transforming regular smooth shading into hand-painted brush stroke shading. 
+*Brushed Shading* is a suite of tools for achieving painterly stylized looks. See the links below for documentation for the supported DCCs.
 
 # [Brushed Shading for Blender](index_blender.md)
 
 # [Brushed Shading for Maya](index_maya.md)
 
-![img](docs/img/Junkyard_close_BA.jpg)
-
-## Material Asset Library
-
-Because Brushed Shading works with hand-painted brush strokes, there are almost endless artistic looks you can achieve. The material library comes with several examples, including watercolor, oil paint, pastel, palette knife, and pencil sketch. You can make your own custom brushes to get your own personal style.
-
-![img](docs/img/matLib.jpg)
-
-## Material Asset Library - Shader Nodes
-
-The Asset Library includes the components you’ll need to build a Brushed Shading material node network. Each shader node is detailed below in the linked documentation pages.
-
-![img](docs/img/shaderNodes.jpg)
-
-
-> [Principled Toon](docs/PrincipledToon.md)
-
-> [Brushed Normals](docs/BrushNormals.md)
-
-> [Triplanar Pref](docs/triPref.md)
-
-> [Color Correct](docs/cc.md)
-
-
-
-
-## Add-Ons / Tools
-
-The following Add-Ons extend Blender’s functionality to make the brushed shading workflow possible in an animation production pipeline.
-
-![img](docs/img/addons.jpg)
-
-> [Asset Shader Transfer](docs/shaderTransfer.md)
-
-> [Texture Reference Pose](docs/texRef.md)
-
-## Installation
-
-Brushed Shading is packaged as a Blender Extension. So installing and maintaining is a breeze. As explained in the <a href="https://docs.blender.org/manual/en/latest/editors/preferences/extensions.html" target="_blank">Get Extensions</a> page of the Blender docs, to install from disk you can either use the drop-down menu in the top right of the Preferences, or drag-and-drop the extension .zip package into Blender. This will install the add-ons as well as the Material Asset Library. 
-
-## Resources
-
-Inside the extension .zip package, you will also find many resources, including 
-
-- In the *examples* folder, you'll find a blender scene with the awesome FeiFei model by Leo Rezende for you to try out. The scene comes with texture maps and brushed shading materials.
-  ![img](docs/img/exampleScene.jpg)
-- In the *textures* folder, you'll find all the tiled brush maps used in the material library presets.
-  ![img](docs/img/brushMaps.jpg)
-- In the *shaders* folder, you'll find two OSL shaders. One for Blender, and another for Maya.
-
-## Tutorials
-
-Coming Soon!
