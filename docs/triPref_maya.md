@@ -4,9 +4,17 @@
 
 Implements many of the Arnold Triplanar map features, using standard MaterialX nodes so it is render agnotic. Most importantly, this includes texture position reference attributes (Pref). 
 
-![img](img/Maya/triplanarPrefAttr.jpg)
+For painterly renders, we don’t want to have the brush strokes be UV mapped to the objects, because then their size will be locked to the characters. Instead, just as an artist paints the brush strokes on the canvas, we also want our brush strokes to be independent of the object's UVs, and determined per shot.
+
+We can do this using Triplanar projections, but this presents a problem with animated characters: They will appear to “swim” through the brush strokes.
+
+![img](img/Maya/FeiFei_Pref_v4.gif)
+
+Here Pref (position reference) and Nref (Normal reference) attributes are used to make projections “stick” to characters. 
 
 ## Parameters
+
+![img](img/Maya/triplanarPrefAttr.jpg)
 
 **File**
 
