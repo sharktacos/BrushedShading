@@ -1,6 +1,6 @@
 .
 # Brushed Shading for Maya Documentation
-[Download Brushed Shading for Maya](https://sharktacos.gumroad.com/l/BrushedShading_Maya)
+[Download Brushed Shading for Maya](https://sharktacos.gumroad.com/l/BrushedShadingMaya)
 
 [Watch Brushed Shading for Maya video tutorials](https://youtu.be/OPMcgrchrA8?si=RRSnj7qmrY_om6Aw)
 
