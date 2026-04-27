@@ -2,7 +2,8 @@
 .
 # Brushed Shading for Blender Documentation
 [Download Brushed Shading for Blender](https://sharktacos.gumroad.com/l/BrushedShading)
-[Watch video totorials](https://youtu.be/OPMcgrchrA8?si=RRSnj7qmrY_om6Aw)
+
+[Watch Brushed Shading for Blender video tutorials](https://youtu.be/OPMcgrchrA8?si=RRSnj7qmrY_om6Aw)
 
 ![img](docs/img/FeiFei_BrushShade_v2.jpg)
 
