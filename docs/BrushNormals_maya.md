@@ -1,3 +1,4 @@
+.
 ## Maya/MaterialX
 # Brushed Normals
 
