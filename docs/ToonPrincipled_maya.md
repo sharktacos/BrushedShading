@@ -5,7 +5,7 @@ Based on OpenPBR, but designed for NPR rendering.
 
 ![img](img/Maya/toonPrincipledAttr2.jpg)
 
-## Inputs / Parameters
+## Base
 
 **Base Weight**
 
@@ -21,7 +21,7 @@ Blending between smooth shading normals and brushed normals. A value of 0 is com
 
 Node that the diffuse shading is in energy preserving Oren-Nayer (EON) to produce a flattened toon look.
 
-**Metal Weight*
+**Metal Weight**
 
 A mix between dielectric shading and toon metallic. Uses two specular lobes, one tinted with the base color, to get a stylized metallic look. 
 
@@ -29,10 +29,11 @@ A mix between dielectric shading and toon metallic. Uses two specular lobes, one
 
 Roughness of the metal specular lobe.
 
+## Specular
+
 **Toon Spec** 
 
 Toggle between toon specular (Toon Glossy BSDF), and microfacet GGX specular. 
-
 
 **Specular Weight**
 
@@ -50,7 +51,7 @@ Tonemaps the specular highlight to create a sharp circular specular highlight
 
 Specifies the roughness of the surface for specular reflection. Generally you want to keep this high (dafault 0.6), using Specular Size.
 
-**Edge**
+## Edge
 
 The edge uses tonemapped facing ratio, to create a stylized edging that can be used for metals, cloth. 
 
@@ -66,6 +67,8 @@ The color of the stylized edge. Note that black can be used for darkening as wel
 
 Controlls the thickness of the edge.
 
+## Emission
+
 **Emission Luminace**
 
 Controls the amount of emitted light, specified as a luminance in nits (candela per square meter). 
@@ -77,6 +80,8 @@ The emission color is multiplied by the white light of the given emission lumina
 **Emission Tint**
 
 Multiplier for tinting the emission color. Useful for stylized (flat) skin looks by tinting with red for the sub-dermal layer.
+
+## Brushing
 
 **Base Normal** 
 
