@@ -10,7 +10,7 @@ Transforms regular smooth shading into brushed shading by rotating the object no
 
 ## Inputs / Parameters
 
- ![img](img/Maya/BrushNormAttr.jpg)
+<img src="img/Maya/BrushNormAttr.jpg" width="500" alt="menu">
 
 **Strength** 
 
