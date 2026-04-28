@@ -14,7 +14,7 @@ Here Pref (position reference) and Nref (Normal reference) attributes are used t
 
 ## Parameters
 
-![img](img/Maya/triplanarPrefAttr.jpg)
+<img src="img/Maya/triplanarPrefAttr.jpg" width="500" alt="menu">
 
 **File**
 
