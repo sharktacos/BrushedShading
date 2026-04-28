@@ -2,9 +2,12 @@
 ## [Brushed Shading for Maya/MaterialX](../index_maya.md)
 # Toon Principled (Arnold)
 
+![img](img/Maya/OpenPBRToonPrinc.jpg)
+
 Based on OpenPBR, but designed for NPR rendering. Includes diffuse flattening, specular tone mapping, stylized edges and metalness. Works with Arnold's builtin AOVs and LPEs, as well as light groups.
 
-![img](img/Maya/toonPrincipledAttr2.jpg)
+
+<img src="img/Maya/toonPrincipledAttr2.jpg" width="500" alt="menu">
 
 ## Base
 
