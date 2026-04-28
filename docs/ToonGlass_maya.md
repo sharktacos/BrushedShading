@@ -4,9 +4,11 @@
 
 Stylized glass surface. Includes center clarity, edge thickness, and specular tone mapping.
 
-<img src="img/Maya/toonGlassAttr.jpg" width="500" alt="menu">
+<img src="img/Maya/BrushedShading_glass.jpg" width="500" alt="menu">
 
 ## Inputs / Parameters
+
+<img src="img/Maya/toonGlassAttr.jpg" width="500" alt="menu">
 
 **Glass Tint**
 
