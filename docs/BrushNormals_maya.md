@@ -4,7 +4,7 @@
 
 Transforms regular smooth shading into brushed shading by rotating the object normals through the brush stroke map, emulating how an artist shades transitions from light to dark by dragging their brush through paint.
 
-![img](img/Maya/SphereLogoSm.[0030-0080].gif)
+![img](img/Maya/sphere2.gif)
 
 
 
