@@ -4,7 +4,7 @@
 
 Stylized glass surface. Includes center clarity, edge thickness, and specular tone mapping.
 
-![img](img/Maya/toonGlassAttr.jpg)
+<img src="img/Maya/toonGlassAttr.jpg" width="500" alt="menu">
 
 ## Inputs / Parameters
 
