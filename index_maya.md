@@ -8,6 +8,8 @@
 
 *Brushed Shading for Maya* Brushed Shading for Maya is a suite of shaders and tools for achieving painterly stylized looks in Maya Arnold using MaterialX. It does this by transforming regular smooth shading into hand-painted brush stroke shading. 
 
+![img](docs/img/Maya/sphere2.gif)
+
 ## [Installation](install_Maya.md)
 
 See above linked documentation page for installation instructions.
