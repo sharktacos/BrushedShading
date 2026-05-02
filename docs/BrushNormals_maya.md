@@ -32,8 +32,14 @@ Rotates the world normals based on a "paint-roller" effect. Effectively smearing
 
 Rotations in world space are converted into screen space, determining the starting direction angle of the roll. Internal yaw and pitch functions in the shader make this unnecessary in most cases.
 
-## Brushed Normnals OSL
+# Brushed Normals OSL
 
 An OSL version with added parameter for screen space rotation. Note that OSL have a warning in Maya 2026.3 that they "may not compile" that can be ignored. 
 
+## Inputs / Parameters
+
+<img src="img/Maya/BrushNormOSLAttr.jpg" width="500" alt="menu">
+
 **Rotation** 
+
+Rotates the roll direction clockwise in degrees. At the default value of zero (0) the roll is pointing downwards in screen space so that the roll travels from the top to the bottom. A value of 45 will rotate the roll clockwise 45 degrees in screen space, and -45 will rotate counterclockwise 45 degrees.
