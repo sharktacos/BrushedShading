@@ -29,6 +29,7 @@ The custom MaterialX Node Library includes all the components you’ll need to b
 
 > [Triplanar Pref](docs/triPref_maya.md)
 
+> [Edge Mask](docs/EdgeMask.md)
 
 
 ## [Brushed Shading Menu](MayaMenu.md)
