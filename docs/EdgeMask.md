@@ -17,7 +17,9 @@ A normalized slider to control the overall effect, from zero (no effect) to 1 (1
 
 **Brush Mask**
 
-
+This is where you input the Triplanar brush strokes texture map, used to add brush strokes to the edge.
 
 **Spread**
+
+Spread the mask from the edges into the center.
 
