@@ -32,3 +32,8 @@ Rotates the world normals based on a "paint-roller" effect. Effectively smearing
 
 Rotations in world space are converted into screen space, determining the starting direction angle of the roll. Internal yaw and pitch functions in the shader make this unnecessary in most cases.
 
+## Brushed Normnals OSL
+
+An OSL version with added parameter for screen space rotation. Note that OSL have a warning in Maya 2026.3 that they "may not compile" that can be ignored. 
+
+**Rotation** 
