@@ -1,5 +1,6 @@
 ## [Brushed Shading for Maya/MaterialX](../index_maya.md)
 # Edge Mask
+*ND_EdgeMask_float*
 
 Facing ratio edge transitioning from white, into masked (with brush strokes), then to black. Use as a mix for a mix shader to add a brushed toon sheen component.
 
