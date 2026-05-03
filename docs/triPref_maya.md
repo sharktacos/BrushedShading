@@ -1,6 +1,7 @@
 .
 ## [Brushed Shading for Maya/MaterialX](../index_maya.md)
 # Triplanar Pref
+*ND_TriplanarPref_color3*
 
 Implements many of the Arnold Triplanar map features, using standard MaterialX nodes so it is render agnotic. Most importantly, this includes texture position reference attributes (Pref). 
 
