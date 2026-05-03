@@ -1,6 +1,7 @@
 .
 ## [Brushed Shading for Maya/MaterialX](../index_maya.md)
 # Toon Principled (Arnold)
+*ND_ToonPrincipled_surfaceshader*
 
 ![img](img/Maya/OpenPBRToonPrinc.jpg)
 
