@@ -1,6 +1,7 @@
 .
 ## [Brushed Shading for Maya/MaterialX](../index_maya.md)
 # Brushed Normals
+*ND_BrushedNormals_vector3*
 
 Transforms regular smooth shading into brushed shading by rotating the object normals through the brush stroke map, emulating how an artist shades transitions from light to dark by dragging their brush through paint.
 
